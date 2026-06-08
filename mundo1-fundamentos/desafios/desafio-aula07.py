@@ -67,7 +67,7 @@ fahrenheit = (celsius * 9/5) + 32
 print(f'A temperatura de {celsius} °C corresponde a {fahrenheit} °F') 
 
 # Desafio 11
-# Escreva um programa que pergunte a quantidade de Km percorridos por um caroo alugado e a quantidade de dias pelos quais ele foi alugado. Calcule o preço a pagar, sabendo que o carro custa R$ 60,00 por dia e R$ 0,15 por Km rodado.
+# Escreva um programa que pergunte a quantidade de Km percorridos por um caro alugado e a quantidade de dias pelos quais ele foi alugado. Calcule o preço a pagar, sabendo que o carro custa R$ 60,00 por dia e R$ 0,15 por Km rodado.
 dias_uso = int(input('Quantos dias alugados? '))
 km_rodados = float(input('Quantos Km rodados? '))
 total_pagar = (dias_uso * 60) + (km_rodados * 0.15)
