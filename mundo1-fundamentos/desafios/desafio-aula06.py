@@ -1,4 +1,4 @@
-# Desafio 1
+# Desafio 01
 # Faça um programa que leia algo pelo teclado e mostre na tela o seu tipo primitivo e todas as informações possíveis sobre ele. 
 elemento_digitado = input("Digite algo: ")
 print(f'O elemento {elemento_digitado} que você digitou é do tipo' , type(elemento_digitado))

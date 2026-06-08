@@ -1,16 +1,16 @@
-# Desafio 1
+# Desafio 01
 # Faça um programa que leia um número inteiro e mostre na tela o seu sucessor e seu antecessor. 
 num = int(input('Escreva um número: '))
 print(f'O número antecessor do {num} é {num-1}\ne\no número sucessor é {num + 1}')
 
-# Desafio 2
+# Desafio 02
 # Crie um algoritmo que leia um número e mostre o seu dobro, triplo e raiz quadrada.
 num2 = int(input('Escreva um número: '))
 print(f'O dobro de {num2} é {num2*2}')
 print(f'O triplo de {num2} é {num2*3}')
 print(f'A raiz quadrada de {num2} é {num2 ** (1/2):.2f}')
 
-# Desafio 3
+# Desafio 03
 # Desenvolva um programa que leia as duas notas de um aluno, calcule e mostre a sua média.
 
 aluno1 = int(input('Digite a nota do primeiro aluno: '))
@@ -18,13 +18,13 @@ aluno2 = int(input('Digite a nota do segundo aluno: '))
 media_alunos = (aluno1 + aluno2)/2
 print(f'A média das notas dos alunos é de {media_alunos:.2f}')
 
-# Desafio 4
+# Desafio 04
 # Escreva um programa que leia um valor em metros e o exiba convertido em centimetros e milimetros.
 qtd_metros = int(input('Digite quantos metros você quer converter: '))
 print(f'{qtd_metros} é igual a {qtd_metros * 100} centímetros.')
 print(f'{qtd_metros} é igual a {qtd_metros * 1000} milímetros.') 
 
-# Desafio 5
+# Desafio 05
 # Faça um programa que leia um número inteiro qualquer e mostre na tela a sua tabuada. 
 num = int(input("Escreva um número: "))
 print('-' * 12)
@@ -32,13 +32,13 @@ for i in range(11):
     print(f'{num} X {i} = {num * i}')
 print('-' * 12)
 
-# Desafio 6
+# Desafio 06
 # Crie um programa que leia quanto dinheiro uma pessoa tem na carteira e mostre quantos dólares ela pode comprar.
 valor_real = int(input('Quantos reais você tem na carteira? '))
 dolar = valor_real/4.91 #Valor do dólar no dia 11/05/2026
 print(f'Com {valor_real} reais você pode compra {dolar:.2f} dólares.')
 
-# Desafio 7
+# Desafio 07
 # Faça um programa que leia a largura e a altura de uma parede em metros, calcule a sua área e a quantidade de tinta necessária para pintá-la, sabendo que cada litro de tinta pinta uma área de 2m^2
       
 altura = int(input('Escreva a altura da parede em metros: '))
@@ -48,13 +48,13 @@ qtd_tinta = area/2
 print(f'A área dessa parede é igual a {area} m^2.')
 print(f'A quantidade de tinta necssária para pintar essa parede é de {qtd_tinta} litros.')
 
-# Desafio 8
+# Desafio 08
 # Faça um algoritmo que leia o preço de um produto e mostre seu novo preço, com 5% de desconto. 
 preco_produto = int(input('Qual o preço do produto? '))
 preco_desconto = preco_produto - (preco_produto * 0.05)
 print(f'O preço do produto com desconto de 5% é de R$ {preco_desconto}')
 
-# Desafio 9
+# Desafio 09
 # Faça um algoritmo que leia o salário de um funcionário e mostre seu novo salário, com 15% de aumento. 
 salario = int(input('Qual é o seu salário? '))
 novo_salario = salario + (salario * 0.15)
@@ -67,7 +67,7 @@ fahrenheit = (celsius * 9/5) + 32
 print(f'A temperatura de {celsius} °C corresponde a {fahrenheit} °F') 
 
 # Desafio 11
-# Escreva um programa que pergunte a quantidade de Km percorridos por um caro alugado e a quantidade de dias pelos quais ele foi alugado. Calcule o preço a pagar, sabendo que o carro custa R$ 60,00 por dia e R$ 0,15 por Km rodado.
+# Escreva um programa que pergunte a quantidade de Km percorridos por um carro alugado e a quantidade de dias pelos quais ele foi alugado. Calcule o preço a pagar, sabendo que o carro custa R$ 60,00 por dia e R$ 0,15 por Km rodado.
 dias_uso = int(input('Quantos dias alugados? '))
 km_rodados = float(input('Quantos Km rodados? '))
 total_pagar = (dias_uso * 60) + (km_rodados * 0.15)

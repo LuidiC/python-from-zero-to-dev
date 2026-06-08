@@ -1,6 +1,6 @@
 # Anotações Gerais
 
-. Aula04
+## Aula 04
 
 - No python para delimitar as mensagens de dois modos, com aspas simples '' ou aspas duplas "", mas a grande maioria dos programadores utilizam as aspas simples.
   Ex: print('Hello World')
@@ -8,7 +8,7 @@
 - Comando para concatenar textos: print('exemplo1'+'exemplo2') = exemplo1exemplo2
   Podemos fazer isso com o "+"(Quando tiver apenas textos) ou com a ","(Quando tiver números e textos por exemplo, diferentes tipos de variáveis), existem casos que um é melhor e que outro é melhor.
 
-. Aula05
+## Aula 05
 
 - Tipos de variáveis primitivas e Saídas de Dados:
 int: Números interios, exemplo: 7, -4, 0, 9875
@@ -28,7 +28,7 @@ saída: <class 'str'>
 
 - Método `variavel.isalnum()`: Método que retorna True ou False se a variável tem letra ou número. (Obs: existem diversos métodos is)
 
-. Aula06 
+## Aula 06 
 
 - Método `variável.isspace()`: Método que retorna True ou False se a variável só contém espaçoes.
 
@@ -41,7 +41,7 @@ Ex: x = " exemplo"
 x.strip()
 x = "exemplo"
 
-. Aula07
+## Aula 07
 
 Operadores 
 
@@ -70,3 +70,22 @@ Observação: É possível utilizar a função de potência `pow(num,num)` para 
 
 Dica: Para fazer raiz quandrada podemos fazer num ** (1/2), raiz cúbica num ** (1/3)
 
+## Aula 08
+
+Para incluir algo na linguagem de programação python é necessário colocar o comando `import` (bibliotecas por exemplo).
+Ex:
+- import bebidas: importa todas as bebidas para o meu projeto
+- from bebidas import café: importa somente o café da biblioteca bebidas (economiza um pouco mais de memória) 
+
+-> Bibliotecas interessantes:
+. Math:
+Bibliteca de funções matemáticas. 
+`ceil`: Função que arredonda os números para cima. 
+`floor`: Função que arredonda os números para baixo.
+`trunc`: Truncar o número, eliminar da vírgula para frente.
+`pow`: Fazer a potência de 2 números
+`sqrt`: Fazer a raiz quadrada  
+`factorial`: Calculo de fatorial de um número
+
+Curiosidade: 
+Se digitar `import` + Ctrl + SPACE, aparece todas as bibliotecas disponíveis para importar. 
