@@ -15,3 +15,8 @@ print('{:=^20}'.format(nome))
 
 y = 2.12345
 print(f'oi{x:.3f}')
+
+x = int(input('Digite o primeiro número: '))
+y = int(input('Digite o segundo número: '))
+z = pow(x,y)
+print(f'A potênciação entre o número {x} e o número {y} é igual a {z}')

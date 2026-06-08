@@ -27,8 +27,10 @@ print(f'{qtd_metros} é igual a {qtd_metros * 1000} milímetros.')
 # Desafio 5
 # Faça um programa que leia um número inteiro qualquer e mostre na tela a sua tabuada. 
 num = int(input("Escreva um número: "))
+print('-' * 12)
 for i in range(11): 
-    print(f'{num} * {i} = {num * i}')
+    print(f'{num} X {i} = {num * i}')
+print('-' * 12)
 
 # Desafio 6
 # Crie um programa que leia quanto dinheiro uma pessoa tem na carteira e mostre quantos dólares ela pode comprar.
@@ -57,3 +59,16 @@ print(f'O preço do produto com desconto de 5% é de R$ {preco_desconto}')
 salario = int(input('Qual é o seu salário? '))
 novo_salario = salario + (salario * 0.15)
 print(f'Seu novo salário com 15% de aumento é de R$ {novo_salario:.2f}!')
+
+# Desafio 10
+# Faça um algotimo que leia receba uma temperatura em Graus Celsius e converta para Graus Fahrenheit 
+celsius = float(input('Digite a temperatura em Graus Celsius: '))
+fahrenheit = (celsius * 9/5) + 32
+print(f'A temperatura de {celsius} °C corresponde a {fahrenheit} °F') 
+
+# Desafio 11
+# Escreva um programa que pergunte a quantidade de Km percorridos por um caroo alugado e a quantidade de dias pelos quais ele foi alugado. Calcule o preço a pagar, sabendo que o carro custa R$ 60,00 por dia e R$ 0,15 por Km rodado.
+dias_uso = int(input('Quantos dias alugados? '))
+km_rodados = float(input('Quantos Km rodados? '))
+total_pagar = (dias_uso * 60) + (km_rodados * 0.15)
+print(f'Você deve pagar pelo aluguel do carro um total de R${total_pagar:.2f}')

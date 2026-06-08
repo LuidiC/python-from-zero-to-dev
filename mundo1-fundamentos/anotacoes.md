@@ -68,5 +68,5 @@ Ordens de execução/precedências
 
 Observação: É possível utilizar a função de potência `pow(num,num)` para realizar as potências entre o primeiro número elevado ao segundo, porém perdemos a ordem de execução quando a utilizamos. 
 
-Dica: Para fazer raiz quandrada podemos fazer num ** (1/2), raiz cúbica num ** (1/2)
+Dica: Para fazer raiz quandrada podemos fazer num ** (1/2), raiz cúbica num ** (1/3)
 
