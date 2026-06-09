@@ -50,10 +50,13 @@ print(f'A ordem de sorteio dos alunos foi:\n {total_alunos}')
 
 # Desafio 06
 # Faça um programa em Python que abra e reproduza o áudio de um arquivo MP3.
+
 import pygame
 
 pygame.mixer.init()
-pygame.mixer.musica.load("Arquivo")
-pygame.mixer.music.play(0)
+
+pygame.mixer.music.load("sonican-thinking-time-ticking-power-223023.mp3")
+pygame.mixer.music.play()
+
 while pygame.mixer.music.get_busy():
     pygame.time.Clock().tick(10)
