@@ -55,7 +55,7 @@ import pygame
 
 pygame.mixer.init()
 
-pygame.mixer.music.load("sonican-thinking-time-ticking-power-223023.mp3")
+pygame.mixer.music.load("desafio-aula08.mp3")
 pygame.mixer.music.play()
 
 while pygame.mixer.music.get_busy():

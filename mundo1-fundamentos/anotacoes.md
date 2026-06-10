@@ -89,3 +89,24 @@ Bibliteca de funções matemáticas.
 
 Curiosidade: 
 Se digitar `import` + Ctrl + SPACE, aparece todas as bibliotecas disponíveis para importar. 
+
+## Aula 09
+
+### Manipulação de cadeias de Texto: 
+
+Toda a variável String é uma lista/array de caracteres.
+
+nome = Luidi -> [L,u,i,d,i]
+print(nome[3]) = d
+print(nome[2-5]) = idi 
+print(nome[0:4:2]) = Li
+print(nome[:3]) = Lui
+print(nome[1:]) = uidi
+
+. Funções Importantes:
+`len(frase)`: Função que mostra a quantidade de caracteres. 
+`variavel.count('caracter a ser analisado')`: Função que mostra quantas vezes determinado caracter aparece na variavel.
+`variavel.find('conjunto de caracteres')`: Função em que posição de caracter eu achei pela primeira vez o conjunto de caracteres. 
+Obs: Caso receba o valor -1, siginifica que aquele conjunto de caracteres não existe na variavel. 
+`Conjunto de caracteres in variavel`: Função que retorna True ou False se acahar ou não aquele conjunto na variável. 
+`variavel.replace('XYZ', 'ABCDEF')`: Substitui o primeiro conjunto de carcateres pelo segundo. 
