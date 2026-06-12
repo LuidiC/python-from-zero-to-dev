@@ -30,7 +30,7 @@ Projetos práticos desenvolvidos ao longo da jornada:
 
 * Calculadora
 * Sistema de notas
-* Lista de tarefas (To-Do)
+* Lista de tarefa (To-Do)
 * Automações com Python
 
 ## 🛠️ Tecnologias
