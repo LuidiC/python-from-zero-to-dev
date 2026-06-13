@@ -1,5 +1,7 @@
-# Desafio 01
-# Faça um programa que leia algo pelo teclado e mostre na tela o seu tipo primitivo e todas as informações possíveis sobre ele. 
+# Desafio 04
+# Faça um programa que leia algo pelo teclado e mostre na tela o seu tipo primitivo e todas as informações possíveis sobre ele.  
+print('=' * 5  + ' DESAFIO 04 ' + '=' * 5)
+
 elemento_digitado = input("Digite algo: ")
 print(f'O elemento {elemento_digitado} que você digitou é do tipo' , type(elemento_digitado))
 print('Só tem espaços?', elemento_digitado.isspace())

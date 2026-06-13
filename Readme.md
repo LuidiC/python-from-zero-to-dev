@@ -1,64 +1,116 @@
-# 🚀 Python From Zero to Dev
+# Python From Zero to Dev
 
-Este repositório documenta minha jornada de aprendizado em Python, saindo do absoluto zero até a construção de projetos práticos aplicados ao mundo real.
+Repositório criado para documentar minha evolução em Python, lógica de programação e desenvolvimento de soluções práticas.
 
-## 📌 Objetivo
+Este projeto acompanha meus estudos desde os fundamentos da linguagem até a construção de pequenos projetos, automações e aplicações mais completas.
+
+## Objetivo
 
 Desenvolver uma base sólida em programação, com foco em:
 
-* Lógica de programação
-* Desenvolvimento backend
-* Automação de processos
-* Construção de projetos reais
+- Lógica de programação
+- Fundamentos de Python
+- Resolução de problemas
+- Desenvolvimento backend
+- Automação de processos
+- Construção de projetos práticos
 
-## 🧠 Sobre mim
+## Organização do Repositório
 
-Atualmente atuo na área de tecnologia com foco em automação de processos e desenvolvimento de sistemas.
-Este repositório faz parte do meu plano de evolução para me tornar um desenvolvedor mais completo e preparado para desafios reais do mercado.
+```text
+python-from-zero-to-dev/
+├── mundo_01_fundamentos/
+│   ├── anotacoes.md
+│   ├── aulas/
+│   └── desafios/
+├── mundo_02_estruturas_controle/
+├── mundo_03_estruturas_compostas/
+└── projetos/
+```
 
-## 📚 Estrutura do Repositório
+## Módulos de Estudo
 
-### 🔹 Fundamentos
+### Mundo 01 — Fundamentos
 
-* `mundo1-fundamentos/` → primeiros conceitos em Python
-* `mundo2-estruturas-controle/` → condicionais e loops
-* `mundo3-estruturas-compostas/` → listas, dicionários e funções
+Conteúdos iniciais da linguagem Python:
 
-### 🔹 Projetos
+- Primeiros comandos
+- Tipos primitivos
+- Entrada e saída de dados
+- Operadores aritméticos
+- Uso de bibliotecas
+- Manipulação de strings
 
-Projetos práticos desenvolvidos ao longo da jornada:
+### Mundo 02 — Estruturas de Controle
 
-* Calculadora
-* Sistema de notas
-* Lista de tarefa (To-Do)
-* Automações com Python
+Conteúdos relacionados a tomada de decisão e repetição:
 
-## 🛠️ Tecnologias
+- Condicionais
+- Laços de repetição
+- Validações
+- Controle de fluxo
 
-* Python
-* VS Code
-* Git e GitHub
+### Mundo 03 — Estruturas Compostas
 
-## 📈 Evolução
+Conteúdos voltados para organização de dados e funções:
 
-Este repositório será constantemente atualizado com:
+- Listas
+- Tuplas
+- Dicionários
+- Funções
+- Modularização
 
-* novos projetos
-* melhorias de código
-* práticas mais avançadas
+## Como Executar os Arquivos
 
-## 🎯 Objetivo profissional
+Clone o repositório:
 
-Meu foco é evoluir como desenvolvedor, com ênfase em:
+```bash
+git clone https://github.com/LuidiC/python-from-zero-to-dev.git
+```
 
-* Backend
-* Automação
-* Desenvolvimento de sistemas
+Acesse a pasta do projeto:
 
-## 📬 Contato
+```bash
+cd python-from-zero-to-dev
+```
 
-Caso queira trocar ideias ou acompanhar minha evolução, fique à vontade para se conectar.
+Execute um desafio:
 
----
+```bash
+python mundo_01_fundamentos/desafios/ex001_boas_vindas.py
+```
 
-⭐ Se você achou interessante, considere acompanhar o repositório!
+## Projetos Práticos
+
+Ao longo da jornada, este repositório também reunirá pequenos projetos, como:
+
+- Calculadora
+- Sistema de notas
+- Lista de tarefas
+- Conversores
+- Automações com Python
+
+## Tecnologias Utilizadas
+
+- Python
+- VS Code
+- Git
+- GitHub
+
+## Evolução
+
+Este repositório será atualizado continuamente com:
+
+- Novos exercícios
+- Refatorações de código
+- Melhorias na organização
+- Projetos práticos
+- Aplicação de boas práticas
+
+## Objetivo Profissional
+
+Meu objetivo é evoluir como desenvolvedor, fortalecendo minha base em programação e avançando gradualmente para backend, automação e desenvolvimento de sistemas.
+
+## Contato
+
+Fique à vontade para acompanhar minha evolução, sugerir melhorias ou trocar ideias sobre programação.

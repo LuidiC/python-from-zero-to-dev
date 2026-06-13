@@ -13,4 +13,17 @@ print(frase.find('deo'))
 print('Curso' in frase)
 frase = frase.replace('Python', "Java")
 print(frase)
+print(frase.upper())
+print(frase.lower())
+print(frase.capitalize())
+print(frase.title())
+lista = frase.split(' ')
+print(lista)
+frase_juntada = '-'.join(lista)
+print(frase_juntada)
+
+
+exemplo = '   Aprenda Python  '
+print(exemplo.strip(), exemplo.lstrip(), exemplo.rstrip()) 
+
 #Parei no tempo 20:49 da aula 09
