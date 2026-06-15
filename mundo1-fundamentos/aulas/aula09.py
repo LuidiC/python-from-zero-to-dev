@@ -10,6 +10,7 @@ print(len(frase))
 print(frase.count('o'))
 print(frase.count('o', 0, 14)) #Quantas vezes determinado caracter apareceu nesse intervalo
 print(frase.find('deo'))
+print(frase.upper().count('O'))
 print('Curso' in frase)
 frase = frase.replace('Python', "Java")
 print(frase)
@@ -19,6 +20,8 @@ print(frase.capitalize())
 print(frase.title())
 lista = frase.split(' ')
 print(lista)
+print(lista[0])
+print(lista[0][2])
 frase_juntada = '-'.join(lista)
 print(frase_juntada)
 
@@ -26,4 +29,3 @@ print(frase_juntada)
 exemplo = '   Aprenda Python  '
 print(exemplo.strip(), exemplo.lstrip(), exemplo.rstrip()) 
 
-#Parei no tempo 20:49 da aula 09

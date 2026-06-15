@@ -1,6 +1,6 @@
 # Desafio 11
 # Faça um programa que leia a largura e a altura de uma parede em metros, calcule a sua área e a quantidade de tinta necessária para pintá-la, sabendo que cada litro de tinta pinta uma área de 2m^2
-print('=' * 5  + ' DESAFIO 1 ' + '=' * 5)
+print('=' * 5  + ' DESAFIO 11 ' + '=' * 5)
 
 altura = int(input('Escreva a altura da parede em metros: '))
 largura = int(input('Escreva a largura da parede em metros: '))

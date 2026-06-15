@@ -1,6 +1,6 @@
 # Desafio 01
 # Peça para o usuário o seu primeiro nome e retorne para ele uma mensagem de boas vindas.
-print('=== DESAFIO 01 ===')
+print('=' * 5 + 'DESAFIO 01' + '=' * 5)
 
 nome = input('Qual o seu nome? ')
 
