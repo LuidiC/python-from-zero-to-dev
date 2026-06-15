@@ -13,7 +13,7 @@ Desenvolver uma base sólida em programação, com foco em:
 - Resolução de problemas
 - Desenvolvimento backend
 - Automação de processos
-- Construção de projetos práticos
+- Construção de vários projetos práticos
 
 ## Organização do Repositório
 
