@@ -112,7 +112,7 @@ print(nome[1:]) = uidi
 `variavel.count('caracter a ser analisado')`: Função que mostra quantas vezes determinado caracter aparece na variavel.
 `variavel.find('conjunto de caracteres')`: Função em que posição de caracter eu achei pela primeira vez o conjunto de caracteres.
 Obs: Caso receba o valor -1, siginifica que aquele conjunto de caracteres não existe na variavel.
-`Conjunto de caracteres in variavel`: Função que retorna True ou False se acahar ou não aquele conjunto na variável.
+`Conjunto de caracteres in variavel`: Função que retorna True ou False se achar ou não aquele conjunto na variável.
 `variavel.replace('XYZ', 'ABCDEF')`: Função que substitui o primeiro conjunto de carcateres pelo segundo.
 `variavel.upper()`: Função que deixa em maiúscula todas as letras da variável.
 `variavel.lower():`: Função que deixa todas as letras da variável minúsculas.
