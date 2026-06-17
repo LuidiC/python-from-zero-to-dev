@@ -116,7 +116,7 @@ Obs: Caso receba o valor -1, siginifica que aquele conjunto de caracteres não e
 `variavel.replace('XYZ', 'ABCDEF')`: Função que substitui o primeiro conjunto de carcateres pelo segundo.
 `variavel.upper()`: Função que deixa em maiúscula todas as letras da variável.
 `variavel.lower():`: Função que deixa todas as letras da variável minúsculas.
-`variavel.capilalize()`: Função que deixa todas as letras da vcariável minúsculas, somente a primeira em maiúscula.
+`variavel.capilalize()`: Função que deixa todas as letras da variável minúsculas, somente a primeira em maiúscula.
 `variavel.title()`: Função que irá colocar a primeira letra após o espaço em maiúscula, cada palavra começará com uma letra maiúscula. (Incluindo a primeira)
 `variavel.strip()`: Função que vai retirar os espaços extras do começo e do final da variável.
 Possíveis variações da função anterior seriam `rstrip`, r de right, trata somente a direita e `lstrip`, l de left, trata somente a esquerda.
