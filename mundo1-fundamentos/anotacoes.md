@@ -122,3 +122,21 @@ Obs: Caso receba o valor -1, siginifica que aquele conjunto de caracteres não e
 Possíveis variações da função anterior seriam `rstrip`, r de right, trata somente a direita e `lstrip`, l de left, trata somente a esquerda.
 `variavel.split`: Função que gera uma lista com elementos separados dentro de uma mesma variável de acordo com delimitador que você escolher.
 `'-'.join(variavel)`: Função que gera uma variavel apartir da junção dos elementos de uma lista com o caracter que você achar o ideal.
+
+## Aula 10
+
+### Condições Simples e Compostas:
+
+Condicionais If e Else, se e senão.
+
+- Estrutura de condicional simples no Python:
+  `if algumacoisa():`
+  `algoacontece()`
+  `else:`
+  `outracoisaacontece()`
+  Duas possibilidades sendo que apenas um dos blocos será executado.
+  Possibilidade na linguagem me programação:
+  `tempo = int(input('Quatos anos tem sey carro?'))`
+  `print('carro novo' if tempo>=3 else 'carro velho' )`
+  `print('--FIM--')`
+- Estrutura de condicional composta no Python:
