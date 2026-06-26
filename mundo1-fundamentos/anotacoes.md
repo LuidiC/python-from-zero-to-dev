@@ -140,3 +140,39 @@ Condicionais If e Else, se e senão.
   `print('carro novo' if tempo>=3 else 'carro velho' )`
   `print('--FIM--')`
 - Estrutura de condicional composta no Python:
+
+## Aula 11
+
+### Cores no Terminal
+
+Existem formas de colocarmos cores no terminal. Não muda nada na prática mas deixa o programa mais interessante e atrativo.
+
+. Estrutura:
+\033[style;text;backm
+Ex: \033[0;30;41m
+
+- style:
+0 -> None
+1 -> Bold
+4 -> Underline 
+7 -> Negative 
+
+- text: 
+30 -> branco
+31 -> vermelho 
+32 -> verde 
+33 -> amarelo 
+34 -> azul
+35 -> roxo
+36 -> ciano 
+37 -> cinza 
+
+- back: 
+40 -> branco
+41 -> vermelho 
+42 -> verde 
+43 -> amarelo 
+44 -> azul
+45 -> roxo
+46 -> ciano 
+47 -> cinza 
