@@ -6,7 +6,7 @@ Este projeto acompanha meus estudos desde os fundamentos da linguagem até a con
 
 ## Objetivo
 
-Desenvolver uma base sólida em programação, com foco em:
+Desenvolver uma base sólida na área de programação, com foco em:
 
 - Lógica de programação
 - Fundamentos de Python
